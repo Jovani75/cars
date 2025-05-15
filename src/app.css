@@ -1,0 +1,8 @@
+:root {
+  --main-color: #1572d3;
+}
+body {
+  font-family: "Roboto", "Noto Sans", system-ui, -apple-system, Avenir,
+    Helvetica, Arial, sans-serif;
+}
+

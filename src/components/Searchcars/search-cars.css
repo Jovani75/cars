@@ -1,0 +1,89 @@
+/* Glassy Search Box */
+.glassy {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #f3f6f9;
+}
+
+.fancy-btn {
+  background: linear-gradient(135deg, #1572D3, #3f8efc);
+  border: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.fancy-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(21, 114, 211, 0.4);
+}
+
+/* Car Cards */
+.fancy-card {
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+
+.fancy-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.car-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fancy-card:hover .car-img {
+  transform: scale(1.03);
+}
+
+.car-title {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #222;
+}
+
+.features p {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rev-box {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

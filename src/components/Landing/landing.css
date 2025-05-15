@@ -1,0 +1,38 @@
+.landing main .info .download-app  {
+  gap: 10px;
+}
+.landing main .image {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 767px) {
+  .landing main .info {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .landing main .info h1 {
+    font-size: 35px;
+  }
+  .landing main .info p {
+    font-size: 16px;
+  }
+  .landing main .image {
+    padding-left: 80px;
+  }
+}
+.landing main .image img {
+  margin-top: auto;
+  animation: zoomin 2s linear 0.3s 1 normal;
+  -webkit-animation: zoomin 2s linear 0.3s 1 normal;
+}
+@keyframes zoomin {
+  0% {
+    display: none;
+    max-width: 20%;
+  }
+  100% {
+    display: inline;
+    max-width: 90%;
+  }
+}

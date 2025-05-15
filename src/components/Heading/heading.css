@@ -1,0 +1,22 @@
+.heading {
+  align-items: center;
+}
+.heading > p {
+  width: fit-content;
+  background-color: #e8f1fb;
+  color: #1572d3;
+  font-size: 15px;
+}
+.heading > h3 {
+  font-size: 27px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  .heading > p {
+    font-size: 12px;
+  }
+  .heading > h3 {
+  font-size: 20px;
+  }
+}
